@@ -20,7 +20,7 @@ frame_count = 0
 
 
 #input_movie = cv2.VideoCapture(args.input_video_path)
-input_movie = cv2.VideoCapture('rtsp://admin:admin123@10.10.105.15:554/cam/realmonitor?channel=1&subtype=0')
+input_movie = cv2.VideoCapture(0)
 #video_size = (1024, 720)
 #fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
 #output_movie = cv2.VideoWriter(args.output_video_path, fourcc, 10, video_size)
